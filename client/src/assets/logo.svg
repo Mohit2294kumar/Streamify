@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Streamify logo with electric bolt</title>
+
+  <!-- Electric Bolt in Rounded Square -->
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" rx="20" ry="20" width="120" height="120" fill="#0A66FF"/>
+    <!-- Electric bolt shape -->
+    <polygon points="65,20 45,70 70,70 55,120 90,60 65,60" fill="white"/>
+  </g>
+
+  <!-- Text: streamify -->
+  <g transform="translate(200,130)">
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#0A66FF" letter-spacing="-2">
+      streamify
+    </text>
+  </g>
+</svg>
