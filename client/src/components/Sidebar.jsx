@@ -5,7 +5,7 @@ import MenuItems from "./MenuItems";
 import { CirclePlus, LogOut } from "lucide-react";
 import {UserButton, useClerk} from '@clerk/clerk-react'
 
-const Sidebar = (sidebarOpen, setSidebarOpen) => {
+const Sidebar = ({sidebarOpen, setSidebarOpen}) => {
 
     const navigate = useNavigate()
     const user = dummyUserData
