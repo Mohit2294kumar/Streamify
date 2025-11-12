@@ -18,8 +18,8 @@ export const addPost = async (req, res) => {
                     const fileBuffer = fs.readFileSync(image.path)
                     const response = await imagekit.upload({
                         file: fileBuffer,
-                        fileName: profile.originalname,
-                        folder: "posts",
+                        fileName: image.originalname,
+                        folder: "posts", 
                     })
 
                     const url = imagekit.url({
